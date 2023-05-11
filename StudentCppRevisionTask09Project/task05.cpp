@@ -24,5 +24,6 @@
 */
 
 int task05(long number) {
+
 	return 0;
 }

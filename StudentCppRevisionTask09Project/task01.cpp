@@ -34,5 +34,6 @@ int task01(int number) {
 			return i;
 		}
 	}
+
 	return 0;
 }

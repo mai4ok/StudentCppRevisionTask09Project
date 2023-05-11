@@ -28,5 +28,15 @@
 */
 
 bool task02(int number) {
+	if (number <= 0) {
+		return false;
+	}
+
+	for (int i = 0; i < number; i++) {
+		if (number == pow(2, i)) {
+			return true;
+		}
+	}
+
 	return false;
 }

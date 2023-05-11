@@ -25,5 +25,12 @@ string task03(int number) {
 	if (number <= 0) {
 		return "0";
 	}
-	return "";
+
+	string msg = "1";
+	for (int i = 2; i <= number; i++) {
+		if ((i * i) <= number) {
+			msg += " " + to_string(i * i);
+		}
+	}
+	return msg;
 }
